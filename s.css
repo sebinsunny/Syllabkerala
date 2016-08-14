@@ -1,0 +1,36 @@
+#container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: center;
+  color: #333;
+  background-color: #fff;
+
+}
+#s ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#s li {
+    float: left;
+}
+
+#s li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#s li a:hover:not(.active) {
+    background-color: #111;
+}
+#j img { 
+
+  position: fixed;
+  width: 100%
+}
